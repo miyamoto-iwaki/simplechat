@@ -8,7 +8,7 @@ import ssl
 import time
 
 # Google Colab API URLを環境変数から取得
-COLAB_API_URL = os.environ.get("COLAB_API_URL", "")
+COLAB_API_URL = os.environ.get("COLAB_API_URL", "https://603d-34-125-30-45.ngrok-free.app")
 
 def lambda_handler(event, context):
     try:
